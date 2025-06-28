@@ -29,3 +29,5 @@ jobs:
 
       - name: lint
         run: cargo clippy # instruct some packages if needed
+      - name: test
+        run: cargo test --tests --bins --examples # instruct some packages if needed
